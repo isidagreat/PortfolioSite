@@ -1,6 +1,6 @@
 <app-header></app-header>
 <router-outlet></router-outlet>
-<app-d3-example></app-d3-example>
-<app-mean></app-mean>
 <app-ios></app-ios>
+<app-mean></app-mean>
 <app-crud></app-crud>
+<app-d3-example *ngIf="chartData" [data]="chartData"></app-d3-example>
