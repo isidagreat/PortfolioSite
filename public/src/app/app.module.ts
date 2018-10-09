@@ -9,13 +9,21 @@ import { HomeComponent } from './home/home.component';
 import { HttpService } from './http.service';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { D3ExampleComponent } from './d3-example/d3-example.component';
+import { MEANComponent } from './mean/mean.component';
+import { IosComponent } from './ios/ios.component';
+import { CRUDComponent } from './crud/crud.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    D3ExampleComponent,
+    MEANComponent,
+    IosComponent,
+    CRUDComponent
   ],
   imports: [
     BrowserModule,
